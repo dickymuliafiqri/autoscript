@@ -1,5 +1,5 @@
 # Autoscript
-Tolong Fork aja 🙏🙏
+Tolong di Fork atau "use this template" 🙏🙏
 
 |  SERVICE  |  NETWORK PORT  |
 |---------- |--------|
@@ -23,3 +23,5 @@ wget -O xray s.id/1YIob && chmod +x xray && ./xray
 ```
 
 # Screenshot
+![b]https://raw.githubusercontent.com/dugong-lewat/autoscript2/main/b.png
+![a]https://raw.githubusercontent.com/dugong-lewat/autoscript2/main/a.png
