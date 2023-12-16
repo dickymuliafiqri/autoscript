@@ -11,8 +11,9 @@ sed -i '/#vmess$/a\#&@ '"$user $exp"'\
 },{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /usr/local/etc/xray/config.json
 sed -i '/#vless$/a\#&@ '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
-sed -i '/#vless-xtls/a\#= '"$user $exp"'\
+sed -i '/#vless-xtls$/a\#&@ '"$user $exp"'\
 },{"id": "'""$uuid""'","level": "'""0""'","email": "'""$user""'"'
+/usr/local/etc/xray/config.json
 sed -i '/#trojan$/a\#&@ '"$user $exp"'\
 },{"password": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
 sed -i '/#trojan-tcp$/a\#&@ '"$user $exp"'\
