@@ -9,7 +9,7 @@ sed -i '/#universal$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
 sed -i '/#vless$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
-sed -i '/#vless-xtls$/a\#&@ '"$user $exp"'\
+sed -i '/#vless-xtls$/a\#= '"$user $exp"'\
 },{"flow": "'""xtls-rprx-vision""'","id": "'""$uuid""'","level": '0',"email": "'""$user""'"' /usr/local/etc/xray/config.json
 sed -i '/#vless-grpc$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
