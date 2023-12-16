@@ -1,4 +1,5 @@
 # Autoscript
+Tolong Fork aja 🙏🙏
 
 |  SERVICE  |  NETWORK PORT  |
 |---------- |--------|
@@ -16,6 +17,9 @@
 | Auto Delete Expired User| ✅ |
 | DNS Setting | ✅ |
 
+# Link Instalasi
 ```
 wget -O xray s.id/1YIob && chmod +x xray && ./xray
 ```
+
+# Screenshot
