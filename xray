@@ -55,7 +55,7 @@ sudo apt-get install speedtest
 clear
 ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 apt install nginx -y
-rm /var/www/html/*.html
+rm -rf /var/www/html/* >> /dev/null 2>&1
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 mkdir -p /var/www/html/vmess
