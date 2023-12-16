@@ -1,4 +1,5 @@
 domain=$(cat /usr/local/etc/xray/domain)
+user=trial-`echo $RANDOM | head -c4`
 masaaktif=1
 uuid=$(cat /proc/sys/kernel/random/uuid)
 echo ""
