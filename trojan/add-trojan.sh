@@ -123,7 +123,7 @@ echo -e "Link gRPC     : ${trojanlink3}" | tee -a /user/log-trojan-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-trojan-$user.txt
 echo -e "Link TCP      : ${trojanlink4}" | tee -a /user/log-trojan-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-trojan-$user.txt
-echo -e "Format Clash  : http://$domain:8000/trojan/trojan-$user.txt" | tee -a /user/log-trojan-$user.txt
+echo -e "Format Clash  : https://$domain/trojan/trojan-$user.txt" | tee -a /user/log-trojan-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-trojan-$user.txt
 echo -e "Expired On    : $exp" | tee -a /user/log-trojan-$user.txt
 echo -e "————————————————————————————————————————————————————" | tee -a /user/log-trojan-$user.txt
