@@ -17,5 +17,5 @@
 | DNS Setting | ✅ |
 
 ```
-wget s.id/1YIob && chmod +x xray && ./xray
+wget -O xray s.id/1YIob && chmod +x xray && ./xray
 ```
