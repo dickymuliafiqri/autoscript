@@ -1,7 +1,7 @@
 # Autoscript
 Tolong di Fork atau "use this template" 🙏🙏
 
-|  SERVICE  |  NETWORK PORT  |
+|  SERVICE  |  PORT  |
 |---------- |--------|
 | Vmess WS CDN TLS | 443 |
 | Vmess WS CDN | 80 |
