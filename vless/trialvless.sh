@@ -9,8 +9,8 @@ sed -i '/#universal$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
 sed -i '/#vless$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
-sed -i '/#vless-xtls$/a\#= '"$user $exp"'\
-},{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
+sed -i '/#vless-xtls/a\#= '"$user $exp"'\
+},{"id": "'""$uuid""'","level": "'""0""'","email": "'""$user""'"'
 sed -i '/#vless-grpc$/a\#= '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /usr/local/etc/xray/config.json
 vlesslink1="vless://$uuid@$domain:443?path=/vless&security=tls&encryption=none&host=$domain&type=ws&sni=$domain#$user"
