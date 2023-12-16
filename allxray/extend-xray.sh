@@ -17,7 +17,7 @@ echo -e "  ${YB}You have no existing clients!${NC}"
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
-vmess
+allxray
 fi
 clear
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
@@ -31,7 +31,7 @@ echo -e "${YB}tap enter to go back${NC}"
 echo -e "${BB}————————————————————————————————————————————————————${NC}"
 read -rp "Input Username : " user
 if [ -z $user ]; then
-vmess
+allxray
 else
 read -p "Expired (days): " masaaktif
 exp=$(grep -wE "^#&@ $user" "/usr/local/etc/xray/config.json" | cut -d ' ' -f 3 | sort | uniq)
